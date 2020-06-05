@@ -1,0 +1,14 @@
+{
+  "name": "webpack-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/marian-c/webpack-bug.git",
+  "scripts": {
+    "start": "rimraf ./dist && webpack && node ./dist/js/main.js"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
